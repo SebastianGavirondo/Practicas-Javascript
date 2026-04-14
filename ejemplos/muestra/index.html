@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muestra de Javascript</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Muestra de Javascript</h1>
+    </header>
+
+    <main>
+      <form>
+        <section id="login">
+          <h2>Crear usuario</h2>
+          <label>
+            <span>Nombre</span>
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              placeholder="Elias Bianchi"
+              required
+            />
+          </label>
+
+          <label>
+            <span>Correo</span>
+            <input
+              type="email"
+              name="correo"
+              placeholder="bianchi.elias@gmail.com"
+              required
+            />
+          </label>
+
+          <label>
+            <span>Contaseña</span>
+            <input type="password" name="contraseña" required />
+          </label>
+        </section>
+
+        <section id="genero">
+          <h2>Genero</h2>
+          <label>
+            Hombre
+            <input type="radio" name="genero" value="male" />
+          </label>
+
+          <label>
+            Mujer
+            <input type="radio" name="genero" value="female" />
+          </label>
+        </section>
+
+        <section id="hobbies">
+          <h2>Hobbies</h2>
+          <label>
+            Programar
+            <input type="checkbox" name="hobbies" value="programar" />
+          </label>
+          <label>
+            Dormir
+            <input type="checkbox" name="hobbies" value="dormir" />
+          </label>
+        </section>
+
+        <section id="botones">
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpiar</button>
+        </section>
+      </form>
+
+      <section id="showData" class="hidden">
+        <p><strong>Nombre: </strong> <span id="nombre"></span></p>
+        <p><strong>Correo: </strong> <span id="correo"></span></p>
+        <p><strong>Contraseña: </strong> <span id="contraseña"></span></p>
+        <p><strong>Genero: </strong> <span id="genero"></span></p>
+
+        <p><strong>Hobbies:</strong></p>
+        <ul id="hobbies"></ul>
+      </section>
+    </main>
+  </body>
+
+  <script src="script.js"></script>
+</html>
