@@ -1,5 +1,7 @@
 # Ejercicios de Funciones
 
+Cada ejercicio resolverlo en el archivo [script.js](./script.js) para que se vea en la página [index.html](./index.html).
+
 ## Ejercicio 1 - Saludo personalizado
 
 Crear una función clásica llamada saludar que reciba un nombre como parámetro y devuelva un string con el mensaje: `"Hola, [nombre]!"`.
@@ -87,6 +89,11 @@ encontrarMaximoPar([3, 9, 2, 5]) // 2
 ## Ejercicio 9 - Contar Vocales
 
 Escribir una función `contarVocales` que reciba una cadena de texto (string) y devuelva cuántas vocales (a, e, i, o, u) contiene. No importa si son mayúsculas o minúsculas.
+
+```js
+// resultado esperado
+contarVocales(Array.from("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut lacus id orci pharetra euismod.")) // 35
+```
 
 > [!Tip]
 > Para convertir una variable string a array: `const array = Array.from(variable)`
