@@ -8,7 +8,7 @@ Crear una función clásica llamada saludar que reciba un nombre como parámetro
 
 ```js
 // resultado esperado
-saludar("Ana") // "Hola, Ana!"
+saludar("Ana"); // "Hola, Ana!"
 ```
 
 ## Ejercicio 2 - Operaciones matemáticas
@@ -17,10 +17,10 @@ Crear una función clásica `calculadora` que dado 2 números y un operador (`+`
 
 ```js
 // resultado esperado
-calculadora(2, 2, "+") // 4
-calculadora(10, 5, "-") // 5
-calculadora(50, 2, "/") // 25
-calculadora(10, 5, "*") // 50
+calculadora(2, 2, "+"); // 4
+calculadora(10, 5, "-"); // 5
+calculadora(50, 2, "/"); // 25
+calculadora(10, 5, "*"); // 50
 ```
 
 > [!Tip]
@@ -32,7 +32,7 @@ Usando una función clásica recibiendo la base y la altura de un rectángulo se
 
 ```js
 // resultado esperado
-areaRectangulo(4, 5) // 20
+areaRectangulo(4, 5); // 20
 ```
 
 ## Ejercicio 4 - Par o impar
@@ -41,8 +41,8 @@ Usando arrow function identificar si un número es par o impar devolviendo `"es 
 
 ```js
 // resultado esperado
-esPar(4) // "es par
-esPar(5) // "es impar
+esPar(4); // "es par
+esPar(5); // "es impar
 ```
 
 ## Ejercicio 5 - Conversor de temperatura
@@ -51,7 +51,7 @@ Escribir una función `celsiusAFahrenheit` que reciba una temperatura en grados 
 
 ```js
 // resultado esperado
-celsiusAFahrenheit(0) // 32
+celsiusAFahrenheit(0); // 32
 ```
 
 ## Ejercicio 6 -Calificación de estudiante
@@ -65,7 +65,7 @@ Crear una función `calificarNota` que reciba un número (0 al 100)
 
 ```js
 // resultado esperado
-calificarNota(85) // B
+calificarNota(85); // B
 ```
 
 ## Ejercicio 7 - Suma de un array
@@ -74,7 +74,7 @@ Escribir una función `sumarArray` que reciba un array de números y devuelva la
 
 ```js
 // resultado esperado
-sumarArray([1, 2, 3, 4]) // 10
+sumarArray([1, 2, 3, 4]); // 10
 ```
 
 ## Ejercicio 8 - Encontrar el máximo par
@@ -83,7 +83,7 @@ Crear una función `encontrarMaximoPar` que dado un array de números devuelva e
 
 ```js
 // resultado esperado
-encontrarMaximoPar([3, 9, 2, 5]) // 2
+encontrarMaximoPar([3, 9, 2, 5]); // 2
 ```
 
 ## Ejercicio 9 - Contar Vocales
@@ -92,7 +92,11 @@ Escribir una función `contarVocales` que reciba una cadena de texto (string) y 
 
 ```js
 // resultado esperado
-contarVocales(Array.from("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut lacus id orci pharetra euismod.")) // 35
+contarVocales(
+  Array.from(
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut lacus id orci pharetra euismod.",
+  ),
+); // 35
 ```
 
 > [!Tip]
@@ -108,5 +112,5 @@ Crea una función `dobleNumeros` que reciba un array de números y devuelva un n
 
 ```js
 // resultado esperado
-dobleNumeros([1, 2, 3, 4]) // [2, 4, 5, 8]
+dobleNumeros([1, 2, 3, 4]); // [2, 4, 5, 8]
 ```
